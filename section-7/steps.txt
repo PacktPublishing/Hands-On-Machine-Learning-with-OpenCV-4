@@ -1,0 +1,37 @@
+1. Gather a dataset of images of the object(s) you wish to detect.
+OpenImages Dataset: https://storage.googleapis.com/openimages/web/index.html
+
+
+2. Annotate the locations of the objects in each image.
+RectLabel (MacOS): https://rectlabel.com
+LabelImg (Linux and Windows): https://github.com/tzutalin/labelImg
+
+
+3. Add pwd to path
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+
+
+4. Creating TensorFlow Records
+python -W ignore object_detection/create_tf_record.py
+
+
+5. Choosing a Base Model from the model zoo: 
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+
+Config files are available in section-7/object_detection/samples/configs
+
+
+6. Training
+python -W ignore object_detection/train.py \
+        --logtostderr \
+        --train_dir=train \
+        --pipeline_config_path=pre_trained_model/ssd_inception_v2_coco.config
+
+
+7. Exporting inference graph:
+python object_detection/export_inference_graph.py \
+        --input_type image_tensor \
+        --pipeline_config_path pre_trained_model/ssd_inception_v2_coco.config \
+        --trained_checkpoint_prefix model.ckpt-STEP_NUMBER \
+        --output_directory custom_model
+

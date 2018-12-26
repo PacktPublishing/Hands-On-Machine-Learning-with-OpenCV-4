@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Umbrella</folder>
+    <filename>img-205.jpg</filename>
+    <size>
+        <width>1024</width>
+        <height>676</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Umbrella</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>53</ymin>
+            <xmax>293</xmax>
+            <ymax>183</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>Umbrella</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>652</xmin>
+            <ymin>45</ymin>
+            <xmax>1024</xmax>
+            <ymax>240</ymax>
+        </bndbox>
+    </object>
+</annotation>

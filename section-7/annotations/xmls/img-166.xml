@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Umbrella</folder>
+    <filename>img-166.jpg</filename>
+    <size>
+        <width>1024</width>
+        <height>769</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Umbrella</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>226</ymin>
+            <xmax>359</xmax>
+            <ymax>347</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>Umbrella</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>147</xmin>
+            <ymin>325</ymin>
+            <xmax>411</xmax>
+            <ymax>432</ymax>
+        </bndbox>
+    </object>
+</annotation>

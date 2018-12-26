@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Umbrella</folder>
+    <filename>img-117.jpg</filename>
+    <size>
+        <width>1024</width>
+        <height>683</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Umbrella</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>403</xmin>
+            <ymin>140</ymin>
+            <xmax>852</xmax>
+            <ymax>276</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>Umbrella</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>604</xmin>
+            <ymin>6</ymin>
+            <xmax>1024</xmax>
+            <ymax>203</ymax>
+        </bndbox>
+    </object>
+</annotation>

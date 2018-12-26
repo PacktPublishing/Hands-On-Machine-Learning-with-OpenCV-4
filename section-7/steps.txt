@@ -1,10 +1,14 @@
 1. Gather a dataset of images of the object(s) you wish to detect.
 OpenImages Dataset: https://storage.googleapis.com/openimages/web/index.html
 
+If you wish to use the same dataset which I used in the video, it is provided in the code bundle. Extract it and place the images folder in the root directory.
+
 
 2. Annotate the locations of the objects in each image.
 RectLabel (MacOS): https://rectlabel.com
 LabelImg (Linux and Windows): https://github.com/tzutalin/labelImg
+
+Annotations for the dataset which I used in the video, are already present in the annootations/xml folder.
 
 
 3. Add pwd to path

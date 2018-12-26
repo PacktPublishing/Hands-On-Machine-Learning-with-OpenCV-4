@@ -1,0 +1,23 @@
+<annotation>
+    <folder>Umbrella</folder>
+    <filename>img-39.jpg</filename>
+    <size>
+        <width>855</width>
+        <height>1024</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Umbrella</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>438</xmin>
+            <ymin>348</ymin>
+            <xmax>806</xmax>
+            <ymax>490</ymax>
+        </bndbox>
+    </object>
+</annotation>

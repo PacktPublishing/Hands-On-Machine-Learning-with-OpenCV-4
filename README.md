@@ -45,7 +45,3 @@ Python 3.7 installed
 
 * [OpenCV 4 Computer Vision with Python Recipes [Video]OpenCV 4 Computer Vision with Python Recipes [Video]](https://www.packtpub.com/application-development/opencv-4-computer-vision-python-recipes-video?utm_source=github&utm_medium=repository&utm_campaign=9781789950816)
 
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781838553883">https://packt.link/free-ebook/9781838553883 </a> </p>

@@ -6,7 +6,7 @@ h5py==2.8.0
 kiwisolver==1.0.1
 matplotlib==3.0.2
 networkx==2.2
-numpy==1.15.4
+numpy==1.22.0
 opencv-python==3.4.4.19
 Pillow==5.3.0
 pyparsing==2.3.0
